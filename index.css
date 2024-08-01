@@ -2,7 +2,6 @@ body {
     width: 1920px;
     height: 1150px;
     background-color: #000000;
-
     border: 2px solid white;
     color: white;
 }
@@ -27,6 +26,10 @@ header {
     height: 55px;
     flex-shrink: 0;
     background-color: #FFFD38;
+}
+
+#contenedor-palabras-numero {
+    display: flex;
 }
 
 .primer-section {
@@ -108,4 +111,79 @@ h1 {
     font-weight: 700;
     line-height: normal;
     text-decoration-line: underline;
+}
+
+#numero {
+    color: #fff;
+    font-family: "sevilla", sans-serif;
+    font-size: 170px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    top: 30px;
+}
+
+#numero-flechas {
+    width: 240px;
+    height: 426px;
+    position: relative;
+    right: 40px;
+    top: 140px;
+}
+
+#flecha-izq {
+    width: 58.063px;
+    height: 41.556px;
+    transform: rotate(-10deg);
+    flex-shrink: 0;
+}
+
+#flecha-der {
+    width: 58.063px;
+    height: 41.556px;
+    transform: rotate(20deg);
+    flex-shrink: 0;
+    position: relative;
+    top: 4px;
+}
+
+#newbies-designers{
+    width: 434px;
+    height: 163px;
+    position: relative;
+    top: 400px;
+    right: 150px;
+
+}
+
+#newbies {
+    color: #fff;
+    opacity: 80%;
+    font-family: "space grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 175px;
+}
+
+#designers {
+    color: #fff;
+    font-family: "sevilla", sans-serif;
+    font-size: 110px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#asterisco {
+    width: 123.8px;
+    height: 132.89px;
+    position: relative;
+    right: 80px;
+    bottom: 20px;
 }
